@@ -24,6 +24,12 @@
   <exec_depend>ros2_controllers</exec_depend>
   <exec_depend>aruco_ros</exec_depend>
   
+  <!-- Dipendenze per keyboard_teleopt -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>trajectory_msgs</exec_depend>
+  <exec_depend>builtin_interfaces</exec_depend>
+
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>

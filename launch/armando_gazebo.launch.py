@@ -114,6 +114,8 @@ def generate_launch_description():
         arguments=[
             '/camera@sensor_msgs/msg/Image@gz.msgs.Image',
             '/camera_info@sensor_msgs/msg/CameraInfo@gz.msgs.CameraInfo',
+            '/my_camera@sensor_msgs/msg/Image@gz.msgs.Image',
+            '/my_camera_info@sensor_msgs/msg/CameraInfo@gz.msgs.CameraInfo',
             '/world/armando_workbench/dynamic_pose/info@tf2_msgs/msg/TFMessage[gz.msgs.Pose_V',
             
             # Bridge per i comandi di presa 

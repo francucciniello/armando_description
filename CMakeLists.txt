@@ -24,8 +24,13 @@ if(BUILD_TESTING)
 endif()
 
 install(
-  DIRECTORY launch meshes urdf config worlds models
+  DIRECTORY launch meshes urdf config worlds models 
   DESTINATION share/${PROJECT_NAME}
+)
+
+install(PROGRAMS scripts/keyboard_teleop.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME keyboard_teleop
 )
 
 ament_package()

@@ -440,6 +440,14 @@
 
     <link name="camera_mount"/>
 
+    <!-- Frame di montaggio della MIA camera (end-effector) -->
+    <joint name="my_camera_mount_joint" type="fixed">
+        <parent link="crawer_base"/>
+        <child link="my_camera_mount"/>
+        <origin xyz="0.0 0.02 0.01" rpy="1.5708 -1.5708 0"/>
+    </joint>
+
+    <link name="my_camera_mount"/>
     <!-- ===== Plugin Gazebo ===== -->
 
     <gazebo>

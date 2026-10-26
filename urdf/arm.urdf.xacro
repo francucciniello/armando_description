@@ -17,6 +17,9 @@
 
     <!-- Camera - commentare per escludere dal modello -->
     <xacro:include filename="armando_camera.urdf.xacro"/>
+    
+    <!-- Camera requested to complete the second task -->
+    <xacro:include filename="my_camera.urdf.xacro"/>
 
 </robot>
  
